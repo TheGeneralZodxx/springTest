@@ -1,0 +1,153 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2638
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Bold;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red115\green158\blue202;\red170\green170\blue170;\red193\green170\blue108;
+\red238\green204\blue100;\red192\green192\blue192;\red158\green158\blue158;}
+{\*\expandedcolortbl;;\csgenericrgb\c45098\c61961\c79216;\csgenericrgb\c66667\c66667\c66667;\csgenericrgb\c75686\c66667\c42353;
+\csgenericrgb\c93333\c80000\c39216;\csgenericrgb\c75294\c75294\c75294;\csgenericrgb\c61961\c61961\c61961;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs24 \cf2 CREATE
+\f1\b0 \cf3  
+\f0\b \cf2 DATABASE
+\f1\b0 \cf3  
+\f0\b \cf2 IF
+\f1\b0 \cf3  
+\f0\b \cf2 NOT
+\f1\b0 \cf3  
+\f0\b \cf2 EXISTS
+\f1\b0 \cf3  \cf4 `testAngel`\cf3  \cf5 ;\cf0 \
+
+\f0\b \cf2 USE
+\f1\b0 \cf3  \cf4 `testAngel`\cf5 ;\
+\
+
+\f0\b \cf2 CREATE
+\f1\b0 \cf3  
+\f0\b \cf2 TABLE
+\f1\b0 \cf3  \cf4 `Client`\cf3  (\cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf3   \cf4 `client_id`\cf3  
+\f0\b \cf4 int
+\f1\b0 \cf3  
+\f0\b \cf2 NOT
+\f1\b0 \cf3  
+\f0\b \cf2 NULL
+\f1\b0 \cf3  
+\f0\b \cf2 AUTO_INCREMENT
+\f1\b0 \cf3 ,\cf0 \
+\cf3   \cf4 `name`\cf3  
+\f0\b \cf4 varchar
+\f1\b0 \cf3 (\cf6 200\cf3 ) 
+\f0\b \cf2 CHARACTER
+\f1\b0 \cf3  
+\f0\b \cf4 SET
+\f1\b0 \cf3  \cf7 utf8mb4\cf3  
+\f0\b \cf2 COLLATE
+\f1\b0 \cf3  \cf7 utf8mb4_0900_ai_ci\cf3  
+\f0\b \cf2 NOT
+\f1\b0 \cf3  
+\f0\b \cf2 NULL
+\f1\b0 \cf3 ,\cf0 \
+\cf3   \cf4 `address`\cf3  
+\f0\b \cf4 varchar
+\f1\b0 \cf3 (\cf6 100\cf3 ) 
+\f0\b \cf2 CHARACTER
+\f1\b0 \cf3  
+\f0\b \cf4 SET
+\f1\b0 \cf3  \cf7 utf8mb4\cf3  
+\f0\b \cf2 COLLATE
+\f1\b0 \cf3  \cf7 utf8mb4_0900_ai_ci\cf3  
+\f0\b \cf2 NOT
+\f1\b0 \cf3  
+\f0\b \cf2 NULL
+\f1\b0 \cf3 ,\cf0 \
+\cf3   
+\f0\b \cf2 PRIMARY
+\f1\b0 \cf3  
+\f0\b \cf2 KEY
+\f1\b0 \cf3  (\cf4 `client_id`\cf3 )\cf0 \
+\cf3 ) \cf7 ENGINE\cf3 =\cf7 InnoDB\cf3  
+\f0\b \cf2 AUTO_INCREMENT
+\f1\b0 \cf3 =\cf6 19\cf3  
+\f0\b \cf2 DEFAULT
+\f1\b0 \cf3  \cf7 CHARSET\cf3 =\cf7 utf8mb4\cf3  
+\f0\b \cf2 COLLATE
+\f1\b0 \cf3 =\cf7 utf8mb4_0900_ai_ci\cf5 ;\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f0\b \cf2 CREATE
+\f1\b0 \cf3  
+\f0\b \cf2 TABLE
+\f1\b0 \cf3  \cf4 `users`\cf3  (\cf0 \
+\pard\pardeftab720\partightenfactor0
+\cf3   \cf4 `username`\cf3  
+\f0\b \cf4 varchar
+\f1\b0 \cf3 (\cf6 50\cf3 ) 
+\f0\b \cf2 NOT
+\f1\b0 \cf3  
+\f0\b \cf2 NULL
+\f1\b0 \cf3 ,\cf0 \
+\cf3   \cf4 `password`\cf3  
+\f0\b \cf4 varchar
+\f1\b0 \cf3 (\cf6 100\cf3 ) 
+\f0\b \cf2 NOT
+\f1\b0 \cf3  
+\f0\b \cf2 NULL
+\f1\b0 \cf3 ,\cf0 \
+\cf3   \cf4 `full_name`\cf3  
+\f0\b \cf4 varchar
+\f1\b0 \cf3 (\cf6 100\cf3 ) 
+\f0\b \cf2 NOT
+\f1\b0 \cf3  
+\f0\b \cf2 NULL
+\f1\b0 \cf3 ,\cf0 \
+\cf3   \cf4 `role`\cf3  
+\f0\b \cf4 varchar
+\f1\b0 \cf3 (\cf6 50\cf3 ) 
+\f0\b \cf2 NOT
+\f1\b0 \cf3  
+\f0\b \cf2 NULL
+\f1\b0 \cf3 ,\cf0 \
+\cf3   \cf4 `country`\cf3  
+\f0\b \cf4 varchar
+\f1\b0 \cf3 (\cf6 100\cf3 ) 
+\f0\b \cf2 NOT
+\f1\b0 \cf3  
+\f0\b \cf2 NULL
+\f1\b0 \cf3 ,\cf0 \
+\cf3   \cf4 `enabled`\cf3  
+\f0\b \cf4 tinyint
+\f1\b0 \cf3 (\cf6 1\cf3 ) 
+\f0\b \cf2 NOT
+\f1\b0 \cf3  
+\f0\b \cf2 NULL
+\f1\b0 \cf3 ,\cf0 \
+\cf3   
+\f0\b \cf2 PRIMARY
+\f1\b0 \cf3  
+\f0\b \cf2 KEY
+\f1\b0 \cf3  (\cf4 `username`\cf3 )\cf0 \
+\cf3 ) \cf7 ENGINE\cf3 =\cf7 InnoDB\cf3  
+\f0\b \cf2 DEFAULT
+\f1\b0 \cf3  \cf7 CHARSET\cf3 =\cf7 utf8mb4\cf3  
+\f0\b \cf2 COLLATE
+\f1\b0 \cf3 =\cf7 utf8mb4_0900_ai_ci\cf5 ;\
+\
+\
+INSERT INTO Client (name,address) VALUES\
+	 ('Ginger','address'),\
+	 ('Ginger1','address1'),\
+	 ('Ginger','address'),\
+	 ('Ginger1','address1'),\
+	 ('Ginger','address'),\
+	 ('Ginger1','address1');\
+\
+\
+INSERT INTO concretepage.users (username,password,full_name,`role`,country,enabled) VALUES\
+	 ('angel','$2a$10$gQpqUzT1uGZXt.Y4j5B49.Go7xYjYVNiFFo4UvsAnrHQM3.xLOSNm','Angel Emmanuel','ROLE_ADMIN','Mexico',1),\
+	 ('carlos','$2a$10$gQpqUzT1uGZXt.Y4j5B49.Go7xYjYVNiFFo4UvsAnrHQM3.xLOSNm','Carlos Alvaro','ROLE_USER','Mexico',1),\
+	 ('emmanuel','$2a$10$gQpqUzT1uGZXt.Y4j5B49.Go7xYjYVNiFFo4UvsAnrHQM3.xLOSNm','Emmanuel Mu\'f1oz','ROLE_ADMIN','Mexico',1);\
+}

@@ -1,0 +1,13 @@
+/Users/angel/Desktop/Proyectos/java/spring-boot-demo/src/main/java/com/angel/dao/UserInfoDAO.java
+/Users/angel/Desktop/Proyectos/java/spring-boot-demo/src/main/java/com/angel/MyApplication.java
+/Users/angel/Desktop/Proyectos/java/spring-boot-demo/src/main/java/com/angel/entity/UserInfo.java
+/Users/angel/Desktop/Proyectos/java/spring-boot-demo/src/main/java/com/angel/service/IClientService.java
+/Users/angel/Desktop/Proyectos/java/spring-boot-demo/src/main/java/com/angel/dao/ClientDAO.java
+/Users/angel/Desktop/Proyectos/java/spring-boot-demo/src/main/java/com/angel/config/AppAuthenticationEntryPoint.java
+/Users/angel/Desktop/Proyectos/java/spring-boot-demo/src/main/java/com/angel/controller/ClientController.java
+/Users/angel/Desktop/Proyectos/java/spring-boot-demo/src/main/java/com/angel/config/SecurityConfig.java
+/Users/angel/Desktop/Proyectos/java/spring-boot-demo/src/main/java/com/angel/dao/IUserInfoDAO.java
+/Users/angel/Desktop/Proyectos/java/spring-boot-demo/src/main/java/com/angel/config/MyAppUserDetailsService.java
+/Users/angel/Desktop/Proyectos/java/spring-boot-demo/src/main/java/com/angel/dao/IClientDAO.java
+/Users/angel/Desktop/Proyectos/java/spring-boot-demo/src/main/java/com/angel/service/ClientService.java
+/Users/angel/Desktop/Proyectos/java/spring-boot-demo/src/main/java/com/angel/entity/Client.java

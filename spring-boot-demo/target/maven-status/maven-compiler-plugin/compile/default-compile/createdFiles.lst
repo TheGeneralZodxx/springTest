@@ -1,0 +1,13 @@
+com/angel/MyApplication.class
+com/angel/config/SecurityConfig.class
+com/angel/entity/UserInfo.class
+com/angel/service/IClientService.class
+com/angel/entity/Client.class
+com/angel/dao/IClientDAO.class
+com/angel/config/AppAuthenticationEntryPoint.class
+com/angel/dao/UserInfoDAO.class
+com/angel/dao/ClientDAO.class
+com/angel/service/ClientService.class
+com/angel/controller/ClientController.class
+com/angel/dao/IUserInfoDAO.class
+com/angel/config/MyAppUserDetailsService.class
